@@ -1,2 +1,4 @@
 # LittleProjects
-Some little and easy projects, all run on Google Colab
+Some little and easy projects, notebooks run on Google Colab
+SQL project using HeidiSQL
+
