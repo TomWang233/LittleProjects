@@ -1,4 +1,6 @@
-#4.分别根据北京地区购买金额和购买笔数，选出四个季度的五星基金和四星基金；(五星基金:购买笔数大于等于1000，或金额累计大于等于3亿；四星基金:购买笔数大于等于500，或金额累计大于等于2亿)
+# 4.According to the purchase amount and the number of purchases in the Beijing area, identify five-star funds and four-star funds throughout four quarters.
+# (five-star funds:The number of purchases is greater than or equal to 1,000, or the cumulative amount is greater than or equal to 300 million)
+# (four-star funds:The number of purchases is greater than or equal to 500, or the cumulative amount is greater than or equal to 200 million)
 
 SELECT t1.fund_cd,
 		 count(t1.fund_cd) AS fund_num,
