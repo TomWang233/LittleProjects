@@ -1,10 +1,11 @@
-#8.现银行开展营销活动，目标客户为累计购买基金小于1万元的客户，且当前活期存款相比于购买基金金额在1.5倍以上。
-/*对于年龄为20-30之间的赠送蓝牙耳机，价值100元；
-对于年龄为30-40之间的赠送购物券，价值200元；
-对于年龄为40-50之间的赠送购物券，价值300元；
-对于年龄为50-60之间的赠送购物券，价值400元；
-对于年龄为60以上的客户的赠送购物券，价值500元。
-计算出银行的最大预算是多少？*/
+# 8.Our bank plans to carry out marketing activities, and the target customers are customers who have purchased funds less than 10,000, 
+#   and the current demand deposits are more than 1.5 times the amount of funds purchased;
+/*For age between 20-30, gift Bluetooth headsets worth 100;
+For age between 30-40, gift Shopping vouchers worth 200;
+For age between 40-50, gift Shopping vouchers worth 300;
+For age between 50-60, gift Shopping vouchers worth 400;
+For age above 60, gift Shopping vouchers worth 500;
+Calculate the maximum bugdet for this event.*/
 
 SELECT case when 2020-year(t2.birth_dt)>=20 and 2020-year(t2.birth_dt)<30 then '20<=age<30'
 				when 2020-year(t2.birth_dt)<40 and 2020-year(t2.birth_dt)>=30 then '30<=age<40'
