@@ -1,4 +1,5 @@
-#3.统计出所有北京的客户中在'2020-01-01'AND'2020-12-18'之间购买过基金的笔数和累计金额，并根据金额由高到低排列；
+# 3.Count the number and cumulative amount of all Beijing customers who have purchased funds between '2020-01-01' and'2020-12-18', 
+#   and rank them according to the amount from highest to lowest;
 
 SELECT t2.party_id,
        t1.fund_num,
