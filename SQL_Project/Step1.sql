@@ -1,6 +1,4 @@
-#研究北京地区的客户在2020年购买基金的情况，根据年龄段来查看他们的金额和笔数分布，并开展营销费用的预算。（金额以万元为单位，小数点保留两位）
-
-# 1.查询北京地区的客户数量，和活期存款总数，以及人均存款金额；
+# 1.Query the number of customers in Beijing, the total number of current deposits, and the average deposit amount;
 
 SELECT COUNT(DISTINCT Party_id) AS num,
        SUM(deposit)/10000 AS total_deposit,
