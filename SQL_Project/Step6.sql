@@ -1,4 +1,5 @@
-#6.根据年龄段，统计出各个年龄段购买基金的客户比例，购买基金的人当中平均每个人购买了几笔，每一笔平均购买的多少万元的基金；
+# 6.According to age groups, calculate the proportion of customers who buy funds in each age group, how many funds each person buys on average among those who buy funds, 
+#   and how many amount of funds each purchase on average;
 
 SELECT case when 2020-year(t2.birth_dt)<20 then 'age<20'
 				when 2020-year(t2.birth_dt)>=20 and 2020-year(t2.birth_dt)<30 then '20<=age<30'
