@@ -1,4 +1,5 @@
-#2.根据北京地区客户的年龄分布情况，看看哪个年龄段的客户数量最多，存款金额最多，人均存款金额最多，男女比例的情况，手机银行的开通率；1男2女；1为开通手机银行
+# 2.According to the age distribution of customers in Beijing, determine which age group has the largest number of customers, the largest total deposit amount, 
+#   the largest average deposit amount, the ratio of male to female, and the opening rate of mobile banking.
 
 SELECT case when 2020-year(t2.birth_dt)<20 then 'age<20'
             when 2020-year(t2.birth_dt)>=20 and 2020-year(t2.birth_dt)<30 then '20<=age<30'
