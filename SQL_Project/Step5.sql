@@ -1,4 +1,5 @@
-#5.统计出各个年龄段，累计购买基金大于等于10万元的客户数量、购买笔数和金额分布；
+# 5.Calculate the number of customers, the number of purchases and the distribution of the amount of customers 
+#   who have cumulatively purchased funds greater than or equal to 100,000 for each age group;
 
 SELECT case when 2020-year(t2.birth_dt)<20 then 'age<20'
 				when 2020-year(t2.birth_dt)>=20 and 2020-year(t2.birth_dt)<30 then '20<=age<30'
