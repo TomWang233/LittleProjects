@@ -1,6 +1,8 @@
 # This is the SQL project 
 
-## In this project, we considered the situation of customers in Beijing area buying funds in 2020 by checking their amount and the distribution of the number of transactions according to their age groups, and calculated the budget for marketing expenses.
+## In this project, we considered the situation of customers in Beijing area buying funds in 2020 by checking their amount and the distribution of the number of transactions according to their age groups, and calculated the budget for marketing expenses. 
+
+## Description for each step is in each sql file
 
 ## Two tables in database are used, custom_info2 and fund_detail.
 
