@@ -1,4 +1,4 @@
-#7.统计出各个年龄段，累计购买基金小于1万元的数量分布和金额；
+#7.Calculate the distribution and amount of cumulative purchases of funds less than 10,000 for each age group;
 
 SELECT case when 2020-year(t2.birth_dt)<20 then 'age<20'
 				when 2020-year(t2.birth_dt)>=20 and 2020-year(t2.birth_dt)<30 then '20<=age<30'
